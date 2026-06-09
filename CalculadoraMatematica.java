@@ -43,7 +43,7 @@ public class CalculadoraMatematica {
     }
     //metodo para dividir 
     public double division (double numero1, double numero2){
-       if (numero1 ==0 || numero2 ==0){
+       if (numero2 ==0){
         System.out.println("No se puede dividor por 0");
         return 0;
         }
